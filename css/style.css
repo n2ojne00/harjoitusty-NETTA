@@ -100,6 +100,7 @@ b {
   animation-duration: 5s;
 }
 
+
 @keyframes name {
   0% {
     font-size: 30px;
@@ -117,5 +118,14 @@ b {
   }
 
 }
+@media screen and (max-width: 776px) {
+  a, #drop-right {
+    display: none;
+  }
+  button#contact {
+    width: 10vw;
+    font-size: 2vw;
+  }
 
+}
 
