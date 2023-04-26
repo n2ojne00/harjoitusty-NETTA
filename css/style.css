@@ -1,0 +1,121 @@
+
+ul {
+  background-color: #85dcb8;
+}
+
+.col-2 {
+  background-color: #41B3A3;
+  padding: 10px;
+}
+.col-10 {
+  background-color: #e27c6082;
+}
+.important {
+  border: dashed 2px rgb(255, 4, 54);
+  background-color: rgba(247, 146, 167, 0.427);
+}
+
+p {
+  border: solid 1px #4d806b;
+  width: 400px;
+  background-color: #85dcb8bf;
+}
+textarea {
+  width: 400px;
+  height: 100px;
+  background-color: #ffc8ae97;
+}
+input#worker {
+  width: 360px;
+  background-color: #ffc8ae97;
+}
+
+#hkicontact>li, #kupcontact>li, #lapcontact>li, #oulucontact>li {
+  list-style: none;
+  color: rgb(0, 0, 0);
+  margin: 2px;
+}
+#hkicontact, #kupcontact, #lapcontact, #oulucontact {
+  position: absolute;
+  left: 180px;
+  background-color: #4ccfbd;
+  border: #4d806b solid 2px;
+  padding: 10px;
+  width: 250px;
+  margin-top: -110px;
+  z-index: 1;
+}
+.col-2>button {
+  background-color: #64e260ad;
+  color: #000000e2;
+  border-color: #3a6d58;
+  margin-bottom: 3px;
+  
+}
+#notepad {
+  background-color: #fcb99a97;
+}
+.twitter-timeline {
+  overflow: auto;
+  width: 400px;
+  height: 600px;
+}
+.col-10>.container>.row {
+  margin-top: 20px;
+}
+
+#bestjob {
+  box-shadow: 5px 5px 10px 10px #3a6d582e;
+  height: 20vw;
+  animation: linear infinite;
+  animation-name: shine;
+  animation-duration: 5s;
+}
+
+@keyframes shine {
+  0% {
+    box-shadow: 3px 3px 3px 3px #01b2bf2e;
+  }
+  30% {
+    box-shadow: 4px 4px 4px 4px #05c8772e;
+  }
+  50% {
+    box-shadow: 3px 3px 3px 3px #a80bb32e;
+  }
+  70% {
+    box-shadow: 4px 4px 4px 4px #f9034d2e;
+  }
+  100% {
+    box-shadow: 5px 5px 5px 5px #04e6882e;
+  }
+
+}
+b {
+  font-size: 30px;
+}
+#bestjobjake {
+  font-size: 70px;
+  animation: linear infinite;
+  animation-name: name;
+  animation-duration: 5s;
+}
+
+@keyframes name {
+  0% {
+    font-size: 30px;
+    color: rgb(95, 21, 33);
+  }
+
+  50% {
+    font-size: 70px;
+    color: rgb(164, 36, 58);
+  }
+  100% {
+    font-size: 30px;
+    color: rgb(63, 14, 22);
+  
+  }
+
+}
+
+
