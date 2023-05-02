@@ -127,5 +127,16 @@ b {
     font-size: 2vw;
   }
 
+  #hkicontact, #kupcontact, #lapcontact, #oulucontact {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    background-color: #4ccfbd;
+    border: #4d806b solid 2px;
+    padding: 10px;
+    width: 250px;
+    z-index: 1;
+  }
+
 }
 
